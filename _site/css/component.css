@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
-
+@font-face {
+	font-family: 'fontawesome';
+	src:url('../fonts/fontawesome/fontawesome.eot?-e43dk9');
+	src:url('../fonts/fontawesome/fontawesome.eot?#iefix-e43dk9') format('embedded-opentype'),
+		url('../fonts/fontawesome/fontawesome.woff?-e43dk9') format('woff'),
+		url('../fonts/fontawesome/fontawesome.ttf?-e43dk9') format('truetype'),
+		url('../fonts/fontawesome/fontawesome.svg?-e43dk9#fontawesome') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 /* General style */
 .grid-gallery ul {
 	list-style: none;
@@ -157,7 +166,7 @@
 .slideshow nav span {
 	position: fixed;
 	z-index: 1000;
-	color: #fff;
+	color: #999;
 	text-align: center;
 	padding: 3%;
 	cursor: pointer;
@@ -179,12 +188,12 @@
 	top: 0;
 	right: 0;
 	padding: 0.5em 1em;
-	color: #fff;
+	color: #999;
 }
 
 .icon:before,
 .icon:after {
-	font-family: 'bpicons';
+	font-family: 'fontawesome';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -267,8 +276,18 @@ span.nav-close:before {
 
 	.slideshow nav span,
 	.slideshow nav span.nav-close {
-		font-size: 1.8em;
+		font-size: 1.1em;
 		padding: 0.3em;
+	}
+	.slideshow nav span.nav-prev {
+		padding-top: 30em;
+		font-size: 1.1em;
+		display: inline-block;
+	}
+	.slideshow nav span.nav-next {
+		padding-top: 30em;
+		font-size: 1.1em;
+		display: inline-block;
 	}
 
 	.info-keys {
