@@ -1,6 +1,6 @@
 name: Projects
 markdown: kramdown
-highlighter: rogue
+highlighter: rouge
 permalink: /:year/:month/:title/
 url: http://iostreamer.me/projects
 baseurl: /projects
