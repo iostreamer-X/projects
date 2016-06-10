@@ -1,9 +1,9 @@
 name: Projects
 markdown: kramdown
-pygments: true
+highlighter: rogue
 permalink: /:year/:month/:title/
 url: http://iostreamer.me/projects
 baseurl: /projects
 author:
     name: iostreamer
-    twitter: @_iostreamer_
+    twitter: "@_iostreamer_"
