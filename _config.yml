@@ -2,7 +2,7 @@ name: Projects
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:title/
-url: http://iostreamer.me/projects
+url: /projects
 baseurl: /projects
 author:
     name: iostreamer
